@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FECDD3"/>
+      <stop offset="60%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FFF1F2"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <!-- Mountain backdrop -->
+  <path d="M-50,320 Q180,180 400,280 T850,220 L850,450 L-50,450 Z" fill="#E2E8F0" opacity="0.7"/>
+  <path d="M-50,340 Q250,240 550,310 T850,280 L850,450 L-50,450 Z" fill="#CBD5E1" opacity="0.8"/>
+  <!-- Cherry Blossom Branch -->
+  <path d="M0,40 Q150,20 280,90 Q340,130 420,110" stroke="#78350F" stroke-width="6" fill="none"/>
+  <circle cx="200" cy="50" r="14" fill="#FDA4AF" opacity="0.9"/>
+  <circle cx="230" cy="65" r="16" fill="#FB7185" opacity="0.85"/>
+  <circle cx="260" cy="80" r="15" fill="#FDA4AF" opacity="0.9"/>
+  <circle cx="310" cy="110" r="18" fill="#F43F5E" opacity="0.8"/>
+  <circle cx="370" cy="115" r="14" fill="#FDA4AF" opacity="0.9"/>
+  <!-- Traditional Machiya Structure -->
+  <polygon points="120,240 680,240 730,270 70,270" fill="url(#roof)"/>
+  <rect x="110" y="270" width="580" height="15" fill="#0F172A"/>
+  <!-- House base -->
+  <rect x="140" y="285" width="520" height="150" fill="#FEF3C7"/>
+  <!-- Wooden lattice (Koshi) -->
+  <g stroke="url(#wood)" stroke-width="4">
+    <rect x="160" y="300" width="140" height="120" fill="#FFFBEB"/>
+    <line x1="180" y1="300" x2="180" y2="420"/>
+    <line x1="200" y1="300" x2="200" y2="420"/>
+    <line x1="220" y1="300" x2="220" y2="420"/>
+    <line x1="240" y1="300" x2="240" y2="420"/>
+    <line x1="260" y1="300" x2="260" y2="420"/>
+    <line x1="280" y1="300" x2="280" y2="420"/>
+    <!-- Entrance Noren -->
+    <rect x="330" y="300" width="140" height="120" fill="#1E293B"/>
+    <!-- Noren fabric -->
+    <path d="M330,300 L470,300 L470,360 L405,360 L405,300 L395,300 L395,360 L330,360 Z" fill="#FF385C"/>
+    <text x="400" y="342" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">京町家</text>
+    <!-- Right Lattice -->
+    <rect x="500" y="300" width="140" height="120" fill="#FFFBEB"/>
+    <line x1="520" y1="300" x2="520" y2="420"/>
+    <line x1="540" y1="300" x2="540" y2="420"/>
+    <line x1="560" y1="300" x2="560" y2="420"/>
+    <line x1="580" y1="300" x2="580" y2="420"/>
+    <line x1="600" y1="300" x2="600" y2="420"/>
+    <line x1="620" y1="300" x2="620" y2="420"/>
+  </g>
+  <!-- Warm Lantern -->
+  <rect x="480" y="275" width="22" height="36" rx="4" fill="#F59E0B" stroke="#78350F" stroke-width="2"/>
+  <line x1="491" y1="265" x2="491" y2="275" stroke="#78350F" stroke-width="2"/>
+  <!-- Stone garden footer -->
+  <rect x="0" y="430" width="800" height="20" fill="#64748B"/>
+</svg>

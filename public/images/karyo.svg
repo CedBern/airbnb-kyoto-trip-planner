@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="foodBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="50%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="dishPlate" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="85%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#foodBg)"/>
+  <!-- Circular Lacquer Bowl -->
+  <circle cx="200" cy="200" r="160" fill="url(#dishPlate)" stroke="#D97706" stroke-width="6"/>
+  <!-- Inner Ring Gold Leaf Accent -->
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#FBBF24" stroke-width="1.5" stroke-dasharray="8 6"/>
+  
+  <!-- Kaiseki Delicacies -->
+  <!-- Momiji (Maple Leaf) Garnish -->
+  <path d="M200,90 L210,120 L235,115 L225,135 L250,150 L220,155 L215,180 L200,160 L185,180 L180,155 L150,150 L175,135 L165,115 L190,120 Z" fill="#DC2626"/>
+  
+  <!-- Sashimi & Nigiri Pieces -->
+  <ellipse cx="150" cy="230" rx="36" ry="20" fill="#FB7185" transform="rotate(-15 150 230)"/>
+  <ellipse cx="148" cy="227" rx="30" ry="14" fill="#F43F5E" transform="rotate(-15 148 227)"/>
+  <line x1="130" y1="220" x2="165" y2="238" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+
+  <ellipse cx="240" cy="225" rx="36" ry="22" fill="#F97316" transform="rotate(20 240 225)"/>
+  <ellipse cx="238" cy="222" rx="30" ry="16" fill="#EA580C" transform="rotate(20 238 222)"/>
+  
+  <!-- Wasabi & Pickled Ginger -->
+  <circle cx="200" cy="250" r="14" fill="#84CC16"/>
+  <path d="M190,210 Q200,195 210,210 Q205,220 195,220 Z" fill="#FBCFE8"/>
+
+  <!-- Chopsticks Resting -->
+  <line x1="60" y1="340" x2="340" y2="340" stroke="#78350F" stroke-width="7" stroke-linecap="round"/>
+  <line x1="60" y1="355" x2="340" y2="355" stroke="#92400E" stroke-width="6" stroke-linecap="round"/>
+  <rect x="185" y="332" width="30" height="30" rx="4" fill="#D97706"/>
+</svg>
